@@ -1,0 +1,8 @@
+language: php
+php:
+  - '7.4'
+script:
+  - php -v
+  - php -f /var/www/rudy.lan/formulaire.php
+  - php -f /var/www/rudy.lan/calculate.php	
+
